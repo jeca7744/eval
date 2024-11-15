@@ -1,0 +1,30 @@
+import { writable } from 'svelte/store';
+
+export const checkoutStore = writable({
+  step: 1,
+  firstName: '',
+  lastName: '',
+  email: '',
+  phone: '',
+  password: '',
+  gender: '',
+  dob: '',
+  height: '',
+  weight: '',
+  shippingAddress: '',
+  insuranceGroup: '',
+  insurancePCN: '',
+  insuranceBIN: '',
+  insuranceMemberID: '',
+  medicalConditions: '',
+  medications: '',
+  allergies: '',
+  nitrileReaction: false,
+  fc2Disclaimer: false,
+  providerQuestions: '',
+  idFile: null,
+  selfieFile: null,
+  signature: '',
+  billingAddress: '',
+  insuranceCoordinationAgreement: false
+});
